@@ -1,1 +1,14 @@
-node_modules
+
+*.sw*
+*~
+build/
+bin/
+node_modules/
+vendor/
+/.idea
+upstairsCloudCode/public/
+upstairsCloudCode/cloud/views/*
+*.log*
+
+#include this specific file
+!meta.index.ejs
